@@ -1,0 +1,20 @@
+CIUREA ANA – SORINA
+311 CC
+
+README:
+
+For the first task, I worked around 4 days ( almost 24 hours). The main ideea for the first problem was to learn how to implement functions and call them in main.
+- I used the given hint and I created also results bingo boards; 
+- In main, I read all the bingo boards and I initialized the results boards with the elements from the first boards;
+- In the results boards I marked the element in the middle, as requested and I created the 'column' so that when certain functions are called that involve changing the columns, the index corresponding to each letter should not be forgotten (for example B corresponds to the index 0);
+- I read the number of commands and then for each command I make a separation between the name of the command and its parameters (for example SHOW and column and position);
+- Depending on the command name, we call the function corresponding to that operation;
+- After the execution of each command, we check before moving on to the next iteration whether a winning ticket has appeared;
+- If yes, we calculate the number of points and continue the program by displaying the number of the winning ticket and its value;
+- If there are two ore more bingo boards with the same points, we will show the one with the smallest ticket;
+
+For the second task, I worked for 5 days (almost 30 hours). The main ideea for the second problem was to learn to allocate enough memory for different elements of the books strcuture.
+-First, I read the number of books, I call the read function to read the structures, and then the number of commands;
+- Depending on the command name, we call the function corresponding to that operation;
+-If the search function doesn't find anything, we print 'NOT FOUND'. For the other functions, nothing happens if the conditions are not fulfilled;
+-After checking all the commands, we print all the books in the given order;
